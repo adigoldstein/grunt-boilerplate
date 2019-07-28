@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   [Table of contents]
 
@@ -29,6 +28,236 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Secular One", sans-serif; }
+
+.cta-call:link, .cta-call:visited {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 319px;
+  margin: 30px auto;
+  padding: 5px;
+  background-color: #00ff36;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 26px; }
+  .cta-call:link:hover, .cta-call:link :active, .cta-call:visited:hover, .cta-call:visited :active {
+    background-color: #00ff52; }
+
+.navbar-brand {
+  font-weight: bold; }
+
+.navbar-light .navbar-nav .nav-link {
+  text-align: center; }
+
+header {
+  background: url("../assets/79.jpg") no-repeat;
+  background-size: cover;
+  background-position-x: 70%;
+  height: 541px; }
+  header .right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header .main-header {
+    font-size: 94px;
+    font-weight: bold;
+    margin-top: 60px;
+    color: #350cda;
+    text-align: center;
+    text-shadow: 2px 2px 2px #dcfff1; }
+  header .sub-header {
+    margin: 0 auto;
+    font-size: 34px;
+    max-width: 356px;
+    text-align: center; }
+  header .bottom-header {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #bd1854;
+    border: 2px solid #bd1854;
+    padding: 5px 10px;
+    border-radius: 4px; }
+  header .dan {
+    width: 576px;
+    margin-top: 66px;
+    display: block;
+    max-width: 100%; }
+
+.bg {
+  background: url("../assets/bg.jpg") 100% center no-repeat;
+  background-size: cover;
+  height: 500px; }
+
+.services .service-card {
+  transition: all .2s;
+  /* Animation */
+  border: 2px solid #e6e6e6;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 388px;
+  max-width: 90%;
+  margin: 0 auto 30px; }
+  .services .service-card .card-image {
+    padding: 10px;
+    border-radius: 50%;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    display: block;
+    margin: 20px auto; }
+  .services .service-card .hr {
+    height: 1px;
+    width: 90%;
+    margin: 15px auto;
+    background-color: #000000; }
+  .services .service-card .service-text {
+    font-size: 30px;
+    text-align: center;
+    display: block; }
+  .services .service-card:hover {
+    transform: scale(1.05);
+    background-color: #deedff; }
+
+.us {
+  padding: 0 8%; }
+  .us p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center; }
+  .us .about {
+    list-style: none;
+    padding: 0; }
+    .us .about li {
+      text-align: right;
+      font-size: 20px;
+      margin-bottom: 25px;
+      position: relative; }
+      .us .about li .blue-v {
+        max-width: 33px;
+        padding-bottom: 3px;
+        padding-left: 10px; }
+
+.reviews {
+  font-size: 20px;
+  padding-bottom: 70px; }
+  .reviews .review-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto; }
+    .reviews .review-wrapper .score {
+      margin-top: 5px;
+      height: 50px;
+      width: 50px;
+      font-size: 35px;
+      padding: 0;
+      box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.36);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 40px; }
+    .reviews .review-wrapper .main-review {
+      text-align: right;
+      width: 100%; }
+    .reviews .review-wrapper span {
+      display: block; }
+    .reviews .review-wrapper .name, .reviews .review-wrapper .desc, .reviews .review-wrapper .rev-header {
+      color: #bd1854; }
+    .reviews .review-wrapper .name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 25px; }
+    .reviews .review-wrapper .desc-text {
+      margin-bottom: 30px;
+      position: relative; }
+      .reviews .review-wrapper .desc-text:before {
+        content: "";
+        background: #d0d0d0;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        height: 1px;
+        width: 100%; }
+    .reviews .review-wrapper .rev-text {
+      margin-bottom: 25px;
+      position: relative; }
+      .reviews .review-wrapper .rev-text:before {
+        content: "";
+        background: #d0d0d0;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        height: 1px;
+        width: 100%; }
+    .reviews .review-wrapper .rank-list {
+      font-size: 16px;
+      display: flex;
+      padding: 0; }
+      .reviews .review-wrapper .rank-list li {
+        display: flex;
+        margin-left: 5px; }
+      .reviews .review-wrapper .rank-list .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        height: 26px;
+        width: 26px;
+        margin-right: 10px;
+        color: #ffffff;
+        background-color: #0bc799; }
+  .reviews .carousel-indicators {
+    bottom: -34px; }
+    .reviews .carousel-indicators li {
+      height: 5px;
+      background-color: #9ea9f0; }
+      .reviews .carousel-indicators li.active {
+        background-color: #000000; }
+
+.section-header {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 50px auto 40px;
+  text-align: center; }
+
+footer {
+  height: 70px;
+  background-color: #553c8b;
+  color: #ffffff; }
+  footer .text {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 70px; }
+
+@media (max-width: 1319px) {
+  .services .service-card {
+    height: 315px; } }
+
+@media (max-width: 991px) {
+  header {
+    height: 800px; }
+    header .main-header {
+      font-size: 75px; }
+    header .dan {
+      max-width: 409px;
+      margin: 22px auto 0;
+      padding: 0 5%; } }
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 16px; }
+  header .bottom-header {
+    font-size: 24px; }
+  header .dan {
+    width: 390px;
+    max-width: 90%; } }
 
 /*# sourceMappingURL=main.css.map */
