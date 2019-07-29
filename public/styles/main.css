@@ -247,7 +247,7 @@ footer {
     header .main-header {
       font-size: 75px; }
     header .dan {
-      max-width: 409px;
+      width: 544px;
       margin: 22px auto 0;
       padding: 0 5%; } }
 
@@ -257,7 +257,10 @@ footer {
   header .bottom-header {
     font-size: 24px; }
   header .dan {
-    width: 390px;
-    max-width: 90%; } }
+    max-width: 100%; } }
+
+@media (max-width: 400px) {
+  .reviews .review-wrapper .rank-list {
+    margin-right: -51px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,36 +1,46 @@
-@media (max-width: 1319px) {
-  .services .service-card {
+@media (max-width:1319px){
+  .services .service-card{
     height:315px;
   }
 
 }
 
-@media (max-width: 991px) {
-  header {
-    height: 800px;
-    .main-header {
+@media (max-width:991px){
+  header{
+    height:800px;
+
+    .main-header{
       font-size:75px;
     }
-    .dan {
-      max-width: 409px;
-      margin: 22px auto 0;
-      padding:  0 5%;
+
+    .dan{
+      width:544px;
+
+      margin:22px auto 0;
+      padding:0 5%;
     }
   }
 }
 
 
-@media (max-width: 575px) {
-.navbar-brand {
-  font-size:16px;
-}
-header{
-  .bottom-header {
-    font-size:24px;
+@media (max-width:575px){
+  .navbar-brand{
+    font-size:16px;
   }
-  .dan {
-    width: 390px;
-    max-width: 90%;
+  header{
+    .bottom-header{
+      font-size:24px;
+    }
+
+    .dan{
+      //width: 390px;
+      max-width:100%;
+    }
   }
 }
+
+@media (max-width:400px) {
+  .reviews .review-wrapper .rank-list {
+    margin-right:-51px;
+  }
 }
